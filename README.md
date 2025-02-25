@@ -19,7 +19,17 @@ You will need to install the `manim` library. If you don't have an environment a
 
 ```
 uv venv
+```
+
+Then activate it:
+
+```
 source .venv/bin/activate
+```
+
+Now install the Mathematical Animation (`manim`) library to this virtual environment:
+
+``` 
 uv pip install manim
 ```
 
@@ -41,6 +51,11 @@ manim -ql line.py FitLine
 
 Both of these commands will create a video in the `media/videos/line/` folders.
 
+## Example
+
+This animation was created in low quality (with the `-ql` flag) and exported to GIF.
+
+![example](example/FitLine_ManimCE_v0.19.0.gif)
 
 ## Contact
 
